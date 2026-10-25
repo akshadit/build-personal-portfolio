@@ -1,17 +1,19 @@
-# 🌐 Developer Portfolio — Akshayaditya K R
+# 🌐 Akshayaditya K R — Systems & AI Engineering Portfolio
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat&logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-blue?style=flat&logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-16%20App%20Router-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Base UI](https://img.shields.io/badge/UI-Base%20UI%20%26%20shadcn-black?style=for-the-badge)](https://base-ui.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-> **A modern, editorial developer portfolio showcasing systems engineering, backend architectures, and agentic AI workflows.**
+> **A modern, editorial developer portfolio showcasing backend architectures, distributed systems, and autonomous Antigravity AI Agent design skills.**
 
 ---
 
 ## 👨‍💻 About Akshayaditya K R
 
-I am an aspiring backend developer specializing in **backend architectures, distributed systems, and AI-assisted engineering** — designing resilient APIs, database layers, and agentic workflows beneath the surface.
+I am an aspiring backend and systems engineer specializing in **distributed architectures, resilient API platforms, database systems, and agentic AI workflows**. I design high-throughput systems with clean abstractions, strict typing, and high visual standards.
 
 - 📬 **Email**: [akshadit1976@gmail.com](mailto:akshadit1976@gmail.com)
 - 🐙 **GitHub**: [@AkShAdIt](https://github.com/AkShAdIt)
@@ -19,66 +21,91 @@ I am an aspiring backend developer specializing in **backend architectures, dist
 
 ---
 
-## ✨ Portfolio Highlights
+## 🤖 Integrated Antigravity AI Agent Skills (`.agents/skills/`)
 
-- **Dark-Mode Editorial Aesthetic**: Minimalist, typography-forward design built with Next.js App Router and Tailwind CSS.
-- **Dynamic Projects Matrix**:
-  - 🏏 **MatchMint**: Sports infrastructure & live ball-by-ball tournament management.
-  - 💬 **MemChat**: Conversational cloud storage engine transforming Google Drive into a chat workspace.
-  - 🎓 **Attendly**: Next-gen academic attendance marking & analytics platform.
-  - 📊 **Devactics / Analytics**: Privacy-first developer web telemetry and IP geolocation.
-  - 🏥 **Sakhi**: Offline-first voice AI healthcare assistant for low-connectivity regions.
-  - 🛡️ **CrowdRakshak**: Computer vision crowd density and bottleneck monitoring.
-  - 💳 **Paysure**: Idempotent merchant payment verification with Razorpay webhooks.
-- **Capabilities Matrix**:
-  - *Building*: Backend Systems, REST & GraphQL APIs, PostgreSQL, Node.js/TypeScript, Python, Agentic AI, Webhooks, System Design.
-  - *Exploring*: Distributed Systems, Microservices, Docker & CI/CD, Vector Databases, Redis Caching, Telemetry & Metrics.
-- **Typed Data Layer**: Cleanly isolated configuration in `lib/portfolio-data.ts` for instantaneous updates.
+Unlike conventional static portfolios, this repository is engineered with a built-in suite of **autonomous Antigravity AI Agent skills** located in `.agents/skills/`. These custom agent competencies power the portfolio's architecture, visual refinement, and code consistency:
+
+- 🛡️ **`gravitas`**: Autonomous agent coordination system featuring task contracts, adversarial critique, memory protocols, and deep verification engines.
+- 🎨 **`brandkit`**: Editorial visual design guidelines, typography hierarchy rules, and structured color palette enforcement.
+- ✨ **`design-taste-frontend`**: Frontend critique and micro-interaction evaluator for high-polish user interfaces.
+- 📐 **`industrial-brutalist-ui` & `minimalist-ui`**: Architectural templates for high-density, typography-forward dark layouts.
+- 🖼️ **`image-to-code` & `stitch-design-taste`**: Layout synthesis utilities transforming conceptual specs into production-grade React components.
 
 ---
 
-## 🚀 Running Locally
+## 🚀 Featured Engineering Projects
 
-### Prerequisites
+The portfolio showcases a curated matrix of production engineering accomplishments:
+
+| Project | Domain | Architecture Highlights |
+| :--- | :--- | :--- |
+| **[MatchMint](https://github.com/akshadit/MatchMint)** | Sports Infrastructure | Live ball-by-ball scoring console, interactive player auction bidding room, points tables, and role portals. |
+| **[MemChat](https://github.com/akshadit/MemChat)** | Cloud Storage & Mobile | Transforms Google Drive into a WhatsApp-style conversational UI with native Android share intent interception. |
+| **[Pulse Analytics](https://github.com/akshadit/analytics)** | Web Telemetry | Sub-2KB cookie-free tracking script with server-side IP geolocation, Supabase PostgreSQL storage, and Render deployment. |
+| **[Attendly](https://github.com/akshadit/attendly)** | EdTech Platform | Next-generation academic attendance tracking with high-speed swipe actions and visual attendance analytics. |
+| **[Mapgorithm](https://github.com/akshadit/mapgorithm)** | Algorithms & GIS | OpenStreetMap pathfinding visualizer running Dijkstra and A* algorithms on real road networks. |
+| **Sakhi** | Offline Healthcare AI | Offline-first voice AI medical guidance assistant tailored for low-connectivity rural healthcare workers. |
+| **CrowdRakshak** | Computer Vision | Real-time computer vision crowd density estimation and congestion alert system for public safety. |
+| **PaySure** | Fintech / Payments | Idempotent merchant payment verification engine with cryptographic Razorpay webhook handling. |
+
+---
+
+## 🛠️ Technology Stack
+
+- **Framework**: Next.js 16 (App Router, Server Components)
+- **Language**: TypeScript 5.7
+- **Runtime & React**: React 19
+- **Styling**: Tailwind CSS v4 (`@tailwindcss/postcss`), `tw-animate-css`
+- **Components**: Base UI (`@base-ui/react`), shadcn/ui, Lucide Icons
+- **Analytics**: `@vercel/analytics`
+- **Data Architecture**: Strongly typed data model decoupled in `lib/portfolio-data.ts`
+
+---
+
+## ⚡ Quick Start
+
+### 1. Prerequisites
 - **Node.js** >= 18.x
 - **pnpm** (recommended) or **npm**
 
-### Setup
+### 2. Installation & Setup
 ```bash
 # Clone the repository
 git clone https://github.com/akshadit/build-personal-portfolio.git
 cd build-personal-portfolio
 
-# Install dependencies
+# Install dependencies via pnpm
 pnpm install
-# or: npm install
 
-# Start development server
+# Launch development server
 pnpm dev
-# or: npm run dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Customizing
-All portfolio contents, projects, skills, and links can be configured in:
-```
-lib/portfolio-data.ts
-```
+Navigate to [http://localhost:3000](http://localhost:3000) to view the live portfolio.
 
 ---
 
-## 🛠️ Tech Stack
+## 📂 Project Architecture
 
-- **Framework**: Next.js 15 (App Router)
-- **Library**: React 19
-- **Styling**: Tailwind CSS
-- **Components**: Radix UI / shadcn-style component primitives
-- **Icons**: Lucide React
-- **Language**: TypeScript
+```
+build-personal-portfolio/
+├── .agents/skills/            # Autonomous AI Agent design and verification skills
+├── app/
+│   ├── globals.css           # Tailwind v4 theme variables & root tokens
+│   ├── layout.tsx            # Root HTML layout & font declarations
+│   └── page.tsx              # Home portfolio landing view
+├── components/
+│   ├── portfolio.tsx         # Master editorial portfolio component
+│   └── ui/                   # Reusable shadcn & Base UI primitives
+├── lib/
+│   ├── portfolio-data.ts     # Central typed data layer (projects, skills, bio)
+│   └── utils.ts              # Styling helpers (clsx & tailwind-merge)
+├── package.json
+└── tsconfig.json
+```
 
 ---
 
 ## 📄 License
 
-Created by [Akshayaditya K R](https://github.com/AkShAdIt). Licensed under the MIT License.
+Distributed under the [MIT License](LICENSE).
