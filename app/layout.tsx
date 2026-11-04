@@ -8,6 +8,7 @@ const fontSans = Plus_Jakarta_Sans({
   variable: '--font-sans',
   display: 'swap',
   weight: ['400', '500', '600', '700', '800'],
+  fallback: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
 })
 
 const fontMono = JetBrains_Mono({
@@ -15,25 +16,29 @@ const fontMono = JetBrains_Mono({
   variable: '--font-mono',
   display: 'swap',
   weight: ['400', '500', '600', '700'],
+  fallback: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
 })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://akshadit.in'),
-  title: 'Akshayaditya K R — Backend Developer & Agentic Systems Engineer',
+  title: 'Akshayaditya K R — Backend Developer & Distributed Systems Engineer',
   description:
-    'Portfolio of Akshayaditya K R. Aspiring backend engineer specializing in scalable APIs, microservices, database architectures, and agentic AI systems.',
+    'Portfolio of Akshayaditya K R. Backend engineer specializing in distributed architectures, high-concurrency event streams, database transactional integrity, and agentic AI systems.',
   authors: [{ name: 'Akshayaditya K R', url: 'https://akshadit.in' }],
   creator: 'Akshayaditya K R',
   keywords: [
     'Akshayaditya K R',
     'Akshayaditya',
     'Backend Developer',
-    'AI Engineer',
-    'Agentic Systems',
+    'Distributed Systems',
     'PostgreSQL',
+    'WebSockets',
+    'Agentic AI',
+    'Idempotency',
     'Node.js',
+    'TypeScript',
     'Python',
-    'Software Engineer Portfolio',
+    'System Design',
   ],
   alternates: {
     canonical: 'https://akshadit.in',
@@ -42,16 +47,16 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://akshadit.in',
-    title: 'Akshayaditya K R — Backend Developer & Agentic Systems Engineer',
+    title: 'Akshayaditya K R — Backend Developer & Distributed Systems Engineer',
     description:
-      'Backend architectures, APIs, and AI agentic workflows engineered beneath the surface.',
-    siteName: 'Akshayaditya K R Portfolio',
+      'Designing resilient backend architectures, idempotent transaction pipelines, and agentic AI systems beneath the surface.',
+    siteName: 'Akshayaditya K R Systems Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Akshayaditya K R — Backend Developer & Agentic Systems Engineer',
+    title: 'Akshayaditya K R — Backend Developer & Distributed Systems Engineer',
     description:
-      'Backend architectures, APIs, and AI agentic workflows engineered beneath the surface.',
+      'Designing resilient backend architectures, idempotent transaction pipelines, and agentic AI systems beneath the surface.',
   },
   icons: {
     icon: [
@@ -73,11 +78,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#eee8d8' },
-    { media: '(prefers-color-scheme: dark)', color: '#13211b' },
-  ],
+  colorScheme: 'dark',
+  themeColor: '#08090d',
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
@@ -89,12 +91,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${fontSans.variable} ${fontMono.variable} scroll-smooth`}>
-      <body className="font-sans antialiased text-[#13211b] bg-[#eee8d8] selection:bg-[#b9db78] selection:text-[#13211b]">
+    <html lang="en" className={`dark ${fontSans.variable} ${fontMono.variable} scroll-smooth`}>
+      <body className="font-sans antialiased text-[#e2e8f0] bg-[#08090d] selection:bg-[#10b981] selection:text-[#040806] overflow-x-hidden min-h-screen">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
   )
 }
-
